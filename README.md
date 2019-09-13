@@ -41,7 +41,7 @@ Edit this document to include your answers after each question. Make sure to lea
 ## Mobile first styles the website and CSS file with mobile users in mind (500px) and then users min-width media queries to respond to larger screen sizes. Desktop first starts with large screen sizes and uses max-width media queries to respond to smaller screen sizes on tablet or mobile.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
-
+ 
 ## By setting it at 62.5%, 1 rem = 10px. It makes the math easy for human brains. If you want a font at 20px, just set rem to 2.
 
 4. How would you describe preprocessing to someone new to CSS?
