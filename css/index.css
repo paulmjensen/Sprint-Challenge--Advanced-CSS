@@ -163,7 +163,7 @@ p {
 .TitleandNavClass {
   display: flex;
   flex-direction: column;
-  align-content: space-around;
+  align-content: space-between;
   margin: 0%;
   padding: 1%;
   background-color: #F6F6F6;
