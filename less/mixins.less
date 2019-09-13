@@ -1,1 +1,25 @@
 // Mixins Here
+
+.flexandcentermixin(){
+    display:flex;
+    justify-content: center;
+};
+
+.marginandpadding(){
+    margin: 0%;
+    padding: 1%;
+}
+
+
+//parametric mixin//
+
+.buttonparametricmixin(@zefontcolor, @zebackgroundcolor){
+    color: @zefontcolor;
+    background-color: @zebackgroundcolor;
+
+    &:hover{
+        color: @zebackgroundcolor;
+        background-color: @zefontcolor;
+    }
+
+}
